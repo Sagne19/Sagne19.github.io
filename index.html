@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css"/>
+
+  <style>
+    .grid-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 20px; 
+      height: 30vh;
+    }
+
+    .fond-paragraphe {
+      background-color: #f2f2f2;
+      border-radius: 20px;
+      padding: 20px;
+      overflow: hidden;
+    }
+
+    .container-left {
+      grid-column: 1; 
+    }
+
+    .container-center {
+      grid-column: 2; 
+    }
+
+    .container-right {
+      grid-column: 3; 
+      
+    }
+
+    .titre {
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <header style="background-color: #39424e; padding: 30px;">
+    <div style="text-align: center;">
+      <img src="https://res.cloudinary.com/wildcodeschool/image/upload/c_fill,h_50/v1/static/irjoy97aq0eol8bf6959" style="float: right;">
+    </div>
+    <h1 style="color: white;">La Data c'est mon dada 🐎</h1>
+  </header>
+
+  <div class="grid-container">
+    <div class="container-left">
+      <div class="fond-paragraphe">
+        <h2 class="titre">Mes Projets</h2>
+        <p>À développer</p>
+      </div>
+    </div>
+
+    <div class="container-center">
+      <div class="fond-paragraphe">
+        <h2 class="titre">Mes Formations</h2>
+        <p>Mon parcours en quelques points :</p>
+        <ul>
+          <li>DUT Gestion des Entreprises et Administrations, Université de Limoges</li>
+          <li>Licence de Gestion, IAE de Limoges</li>
+          <li>Master Marketing et Stratégies Commerciales, INSEEC Bordeaux</li>
+          <li>Data Analyst, Wild Code School Bordeaux</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container-right">
+      <div class="fond-paragraphe">
+        <h2 class="titre">Mes Expériences</h2>
+        <p>Mes expériences en quelques points :</p>
+        <ul>
+          <li>Chargé de Marketing, Groupe Notariat Services</li>
+          <li>Responsable commercial et marketing Junior, Nicoswitch</li>
+          <li>Chef de Secteur, Groupe Savencia</li>
+          <li>Assistant Marketing & Communication, Groupe Parot</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
